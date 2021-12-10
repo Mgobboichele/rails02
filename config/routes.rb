@@ -4,5 +4,8 @@ Rails.application.routes.draw do
 
   get '/home/index' #consentiamo al visitatore di accedere alla pagina
   get '/home/chi_siamo'
+  get '/home/servizi'
+  get '/home/contatti'
+  get '/home/prodotti'
   
 end
